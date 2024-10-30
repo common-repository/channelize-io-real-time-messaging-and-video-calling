@@ -1,0 +1,32 @@
+/* Hide by default chat of */
+.ch-search-window .ch-friends-box .ch-suggested {
+	text-align: center;
+}
+#root {
+	max-width: 100%;
+	box-sizing: border-box;
+	font-family: Roboto,sans-serif !important;
+	line-height: normal !important;
+	font-size: 14px !important;
+}
+.ch-launcher .ch-launcher-image {
+	vertical-align: middle;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 50%;
+	transform: translateY(-50%);
+}
+.ch-header .ch-header_details .ch-header_right-icons i[title="Close"] {
+	position: absolute; 
+	top: -7px; 
+	background: #fff; 
+	border-radius: 50%; 
+	padding: 4px; 
+	box-sizing: border-box; 
+	right: -7px; 
+	font-size: 15px; 
+	display: none; 
+}
+.ch-conv-window:hover .ch-header .ch-header_details .ch-header_right-icons i[title="Close"],
+.ch-recent-window:hover .ch-header .ch-header_details .ch-header_right-icons i[title="Close"] {display: block;}
+

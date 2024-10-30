@@ -1,0 +1,27 @@
+{
+    "name": "bigstep/prime-messenger-client",
+    "type": "library",
+    "description": "The PHP client library for the Prime Messenger API",
+    "keywords": ["primemessenger", "chat"],
+    "license": "proprietary",
+    "authors": [
+        {
+          "name": "Prime Messenger Development Team",
+          "email": "support@primemessenger.com"
+        }
+    ],
+    "require": {
+        "php": ">= 5.3.0",
+        "ext-curl": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "PrimeMessenger\\": ["lib/"]
+        }
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-master": "2.4.x-dev"
+        }
+    }
+}
